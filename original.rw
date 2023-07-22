@@ -1,0 +1,2343 @@
+[SMBIOS Entry]
+Major Version	0x03
+Minor Version	0x03
+DMI Revision	0x00
+Length	0x00001789 (6025)
+
+
+[BIOS Information] (Type 0)
+00 1A 00 00 01 02 00 F0 03 FF 80 98 FB 7F 01 00	................
+00 00 02 0D 05 13 FF FF 20 00 41 6D 65 72 69 63	........ .Americ
+61 6E 20 4D 65 67 61 74 72 65 6E 64 73 20 49 6E	an Megatrends In
+74 65 72 6E 61 74 69 6F 6E 61 6C 2C 20 4C 4C 43	ternational, LLC
+2E 00 31 2E 31 30 00 30 34 2F 31 36 2F 32 30 32	..1.10.04/16/202
+31 00 00                                       	1..             
+Type	0x00 (0)
+Length	0x1A (26)
+Handle	0x0000 (0)
+BIOS Vendor	String1 - "American Megatrends International, LLC."
+BIOS Version	String2 - "1.10"
+Start Address Segment	0xF000
+Release Date	String3 - "04/16/2021"
+ROM Size	0xFF (16384KB)
+BIOS Characteristics	0x000000017FFB9880
+  Bit0	Reserved - 0 (No)
+  Bit1	Reserved - 0 (No)
+  Bit2	Unknown - 0 (No)
+  Bit3	BIOS Characteristics Not Supported - 0 (No)
+  Bit4	ISA is supported - 0 (No)
+  Bit5	MCA is supported - 0 (No)
+  Bit6	EISA is supported - 0 (No)
+  Bit7	PCI is supported - 1 (Yes)
+  Bit8	PC Card (PCMCIA) is supported - 0 (No)
+  Bit9	Plug and Play is supported - 0 (No)
+  Bit10	APM is supported - 0 (No)
+  Bit11	BIOS is Upgradeable (Flash) - 1 (Yes)
+  Bit12	BIOS shadowing is allowed - 1 (Yes)
+  Bit13	VL-VESA is supported - 0 (No)
+  Bit14	ESCD support is available - 0 (No)
+  Bit15	Boot from CD is supported - 1 (Yes)
+  Bit16	Selectable Boot is supported - 1 (Yes)
+  Bit17	BIOS ROM is socketed - 1 (Yes)
+  Bit18	Boot From PC Card (PCMCIA) is supported - 0 (No)
+  Bit19	EDD (Enhanced Disk Drive) Specification is supported - 1 (Yes)
+  Bit20	Int 13h - Japanese Floppy for NEC 9800 1.2mb (3.5", 1k Bytes/Sector, 360 RPM) is supported - 1 (Yes)
+  Bit21	Int 13h - Japanese Floppy for Toshiba 1.2mb (3.5", 360 RPM) is supported - 1 (Yes)
+  Bit22	Int 13h - 5.25" / 360 KB Floppy Services are supported - 1 (Yes)
+  Bit23	Int 13h - 5.25" / 1.2MB Floppy Services are supported - 1 (Yes)
+  Bit24	Int 13h - 3.5" / 720 KB Floppy Services are supported - 1 (Yes)
+  Bit25	Int 13h - 3.5" / 2.88 MB Floppy Services are supported - 1 (Yes)
+  Bit26	Int 5h, Print Screen Service is supported - 1 (Yes)
+  Bit27	Int 9h, 8042 Keyboard services are supported - 1 (Yes)
+  Bit28	Int 14h, Serial Services are supported - 1 (Yes)
+  Bit29	Int 17h, Printer Services are supported - 1 (Yes)
+  Bit30	Int 10h, CGA/Mono Video Services are supported - 1 (Yes)
+  Bit31	NEC PC-98 - 0 (No)
+Characteristics Ext1	0x02
+  Bit0	ACPI supported - 0 (No)
+  Bit1	USB Legacy is supported - 1 (Yes)
+  Bit2	AGP is supported - 0 (No)
+  Bit3	I2O boot is supported - 0 (No)
+  Bit4	LS-120 boot is supported - 0 (No)
+  Bit5	ATAPI ZIP Drive boot is supported - 0 (No)
+  Bit6	1394 boot is supported - 0 (No)
+  Bit7	Smart Battery supported - 0 (No)
+Characteristics Ext2	0x0D
+  Bit0	BIOS Boot Specification supported - 1 (Yes)
+  Bit1	Function key-initiated Network Service boot supported - 0 (No)
+  Bit2	Enable Targeted Content Distribution - 1 (Yes)
+  Bit3	UEFI Specification is supported - 1 (Yes)
+  Bit4	SMBIOS table describes a virtual machine - 0 (No)
+BIOS Release	5.19
+EC Release	0xFFFF - Not supported
+
+
+[System Information] (Type 1)
+01 1B 01 00 01 02 03 04 BD 87 53 AE AC E8 14 97	..........S.....
+AA 93 D8 BB C1 4B F9 E0 06 05 06 4D 69 63 72 6F	.....K.....Micro
+2D 53 74 61 72 20 49 6E 74 65 72 6E 61 74 69 6F	-Star Internatio
+6E 61 6C 20 43 6F 2E 2C 20 4C 74 64 2E 00 4D 53	nal Co., Ltd..MS
+2D 37 44 32 30 00 31 2E 30 00 44 65 66 61 75 6C	-7D20.1.0.Defaul
+74 20 73 74 72 69 6E 67 00 44 65 66 61 75 6C 74	t string.Default
+20 73 74 72 69 6E 67 00 44 65 66 61 75 6C 74 20	 string.Default 
+73 74 72 69 6E 67 00 00                        	string..        
+Type	0x01 (1)
+Length	0x1B (27)
+Handle	0x0001 (1)
+Manufacturer	String1 - "Micro-Star International Co., Ltd."
+Product Name	String2 - "MS-7D20"
+Version	String3 - "1.0"
+Serial Number	String4 - "Default string"
+UUID	0xBD 0x87 0x53 0xAE 0xAC 0xE8 0x14 0x97 0xAA 0x93 0xD8 0xBB 0xC1 0x4B 0xF9 0xE0 
+Wakeup Type	0x06 - Power Switch 
+SKU Number	String5 - "Default string"
+Family	String6 - "Default string"
+
+
+[Base Board Information] (Type 2)
+02 0F 02 00 01 02 03 04 05 09 06 03 00 0A 00 4D	...............M
+69 63 72 6F 2D 53 74 61 72 20 49 6E 74 65 72 6E	icro-Star Intern
+61 74 69 6F 6E 61 6C 20 43 6F 2E 2C 20 4C 74 64	ational Co., Ltd
+2E 00 42 35 36 30 4D 20 50 52 4F 20 28 4D 53 2D	..B560M PRO (MS-
+37 44 32 30 29 00 31 2E 30 00 30 37 44 32 30 31	7D20).1.0.07D201
+30 5F 4C 34 31 45 38 38 30 37 32 31 00 44 65 66	0_L41E880721.Def
+61 75 6C 74 20 73 74 72 69 6E 67 00 44 65 66 61	ault string.Defa
+75 6C 74 20 73 74 72 69 6E 67 00 00            	ult string..    
+Type	0x02 (2)
+Length	0x0F (15)
+Handle	0x0002 (2)
+Manufacturer	String1 - "Micro-Star International Co., Ltd."
+Product	String2 - "B560M PRO (MS-7D20)"
+Version	String3 - "1.0"
+Serial Number	String4 - "07D2010_L41E880721"
+Asset Tag	String5 - "Default string"
+Feature Flags	0x09
+  Bit0	Hosting board (motherboard) - 1 (Yes)
+  Bit1	Requires at least one daughter board or auxiliary - 0 (No)
+  Bit2	Removable - 0 (No)
+  Bit3	Replaceable - 1 (Yes)
+  Bit4	Hot swappable - 0 (No)
+Location in Chassis	String6 - "Default string"
+Chassis Handle	0x0003
+Board Type	0x0A - Motherboard (includes processor, memory, and I/O) 
+Number of Contained Object	0x00 (0) Handles
+
+
+[System Enclosure or Chassis] (Type 3)
+03 16 03 00 01 03 02 03 04 03 03 03 03 00 00 00	................
+00 00 01 00 03 05 4D 69 63 72 6F 2D 53 74 61 72	......Micro-Star
+20 49 6E 74 65 72 6E 61 74 69 6F 6E 61 6C 20 43	 International C
+6F 2E 2C 20 4C 74 64 2E 00 31 2E 30 00 44 65 66	o., Ltd..1.0.Def
+61 75 6C 74 20 73 74 72 69 6E 67 00 44 65 66 61	ault string.Defa
+75 6C 74 20 73 74 72 69 6E 67 00 44 65 66 61 75	ult string.Defau
+6C 74 20 73 74 72 69 6E 67 00 00               	lt string..     
+Type	0x03 (3)
+Length	0x16 (22)
+Handle	0x0003 (3)
+Manufacturer	String1 - "Micro-Star International Co., Ltd."
+Enclosure Type	0x03 - Desktop 
+  Bit7 = 0	Chassis lock is not present or unknown if enclosure has a lock
+Version	String2 - "1.0"
+Serial Number	String3 - "Default string"
+Asset Tag Number	String4 - "Default string"
+Boot-up State	0x03 - Safe 
+Power Supply State	0x03 - Safe 
+Thermal State	0x03 - Safe 
+Security State	0x03 - None 
+OEM-defined	0x00000000
+Height	0x00 (0)
+Number of Power Cords	0x01 (1)
+Contained Element Count	0x00 (0)
+Element Record Length	0x03 (3)
+SKU Number	String5 - "Default string"
+
+
+[Port Connector Information] (Type 8)
+08 09 04 00 01 00 02 0F 0E 4A 31 41 31 00 50 53	.........J1A1.PS
+32 4D 6F 75 73 65 00 00                        	2Mouse..        
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0004 (4)
+Internal Reference Designator	String1 - "J1A1"
+Internal Connector Type	0x00 - None 
+External Reference Designator	String2 - "PS2Mouse"
+External Connector Type	0x0F - PS/2 
+Port Type	0x0E - Mouse Port 
+
+
+[Port Connector Information] (Type 8)
+08 09 05 00 01 00 02 0F 0D 4A 31 41 31 00 4B 65	.........J1A1.Ke
+79 62 6F 61 72 64 00 00                        	yboard..        
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0005 (5)
+Internal Reference Designator	String1 - "J1A1"
+Internal Connector Type	0x00 - None 
+External Reference Designator	String2 - "Keyboard"
+External Connector Type	0x0F - PS/2 
+Port Type	0x0D - Keyboard Port 
+
+
+[Port Connector Information] (Type 8)
+08 09 06 00 01 00 02 1D FF 4A 32 41 31 00 54 56	.........J2A1.TV
+20 4F 75 74 00 00                              	 Out..          
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0006 (6)
+Internal Reference Designator	String1 - "J2A1"
+Internal Connector Type	0x00 - None 
+External Reference Designator	String2 - "TV Out"
+External Connector Type	0x1D - Mini-Centronics Type-14 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 07 00 01 00 02 08 09 4A 32 41 32 41 00 43	.........J2A2A.C
+4F 4D 20 41 00 00                              	OM A..          
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0007 (7)
+Internal Reference Designator	String1 - "J2A2A"
+Internal Connector Type	0x00 - None 
+External Reference Designator	String2 - "COM A"
+External Connector Type	0x08 - DB-9 pin male 
+Port Type	0x09 - Serial Port 16550A Compatible 
+
+
+[Port Connector Information] (Type 8)
+08 09 08 00 01 00 02 07 1C 4A 32 41 32 42 00 56	.........J2A2B.V
+69 64 65 6F 00 00                              	ideo..          
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0008 (8)
+Internal Reference Designator	String1 - "J2A2B"
+Internal Connector Type	0x00 - None 
+External Reference Designator	String2 - "Video"
+External Connector Type	0x07 - DB-15 pin female 
+Port Type	0x1C - Video Port 
+
+
+[Port Connector Information] (Type 8)
+08 09 09 00 01 00 02 12 10 4A 33 41 31 00 55 53	.........J3A1.US
+42 31 00 00                                    	B1..            
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0009 (9)
+Internal Reference Designator	String1 - "J3A1"
+Internal Connector Type	0x00 - None 
+External Reference Designator	String2 - "USB1"
+External Connector Type	0x12 - Access Bus (USB) 
+Port Type	0x10 - USB 
+
+
+[Port Connector Information] (Type 8)
+08 09 0A 00 01 FF 00 00 FF 4A 39 41 31 20 2D 20	.........J9A1 - 
+54 50 4D 20 48 44 52 00 00                     	TPM HDR..       
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x000A (10)
+Internal Reference Designator	String1 - "J9A1 - TPM HDR"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	NULL
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 0B 00 01 FF 00 00 FF 4A 39 43 31 20 2D 20	.........J9C1 - 
+50 43 49 45 20 44 4F 43 4B 49 4E 47 20 43 4F 4E	PCIE DOCKING CON
+4E 00 00                                       	N..             
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x000B (11)
+Internal Reference Designator	String1 - "J9C1 - PCIE DOCKING CONN"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	NULL
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 0C 00 01 FF 00 00 FF 4A 32 42 33 20 2D 20	.........J2B3 - 
+43 50 55 20 46 41 4E 00 00                     	CPU FAN..       
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x000C (12)
+Internal Reference Designator	String1 - "J2B3 - CPU FAN"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	NULL
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 0D 00 01 FF 00 00 FF 4A 36 43 32 20 2D 20	.........J6C2 - 
+45 58 54 20 48 44 4D 49 00 00                  	EXT HDMI..      
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x000D (13)
+Internal Reference Designator	String1 - "J6C2 - EXT HDMI"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	NULL
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 0E 00 01 FF 00 00 FF 4A 33 43 31 20 2D 20	.........J3C1 - 
+47 4D 43 48 20 46 41 4E 00 00                  	GMCH FAN..      
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x000E (14)
+Internal Reference Designator	String1 - "J3C1 - GMCH FAN"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	NULL
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 0F 00 01 FF 00 00 FF 4A 31 44 31 20 2D 20	.........J1D1 - 
+49 54 50 00 00                                 	ITP..           
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x000F (15)
+Internal Reference Designator	String1 - "J1D1 - ITP"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	NULL
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 10 00 01 FF 00 00 FF 4A 39 45 32 20 2D 20	.........J9E2 - 
+4D 44 43 20 49 4E 54 50 53 52 00 00            	MDC INTPSR..    
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0010 (16)
+Internal Reference Designator	String1 - "J9E2 - MDC INTPSR"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	NULL
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 11 00 01 FF 00 00 FF 4A 39 45 34 20 2D 20	.........J9E4 - 
+4D 44 43 20 49 4E 54 50 53 52 00 00            	MDC INTPSR..    
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0011 (17)
+Internal Reference Designator	String1 - "J9E4 - MDC INTPSR"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	NULL
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 12 00 01 FF 00 00 FF 4A 39 45 33 20 2D 20	.........J9E3 - 
+4C 50 43 20 48 4F 54 20 44 4F 43 4B 49 4E 47 00	LPC HOT DOCKING.
+00                                             	.               
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0012 (18)
+Internal Reference Designator	String1 - "J9E3 - LPC HOT DOCKING"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	NULL
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 13 00 01 FF 00 00 FF 4A 39 45 31 20 2D 20	.........J9E1 - 
+53 43 41 4E 20 4D 41 54 52 49 58 00 00         	SCAN MATRIX..   
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0013 (19)
+Internal Reference Designator	String1 - "J9E1 - SCAN MATRIX"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	NULL
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 14 00 01 FF 00 00 FF 4A 39 47 31 20 2D 20	.........J9G1 - 
+4C 50 43 20 53 49 44 45 20 42 41 4E 44 00 00   	LPC SIDE BAND.. 
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0014 (20)
+Internal Reference Designator	String1 - "J9G1 - LPC SIDE BAND"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	NULL
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 15 00 01 FF 00 00 FF 4A 38 46 31 20 2D 20	.........J8F1 - 
+55 4E 49 46 49 45 44 00 00                     	UNIFIED..       
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0015 (21)
+Internal Reference Designator	String1 - "J8F1 - UNIFIED"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	NULL
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 16 00 01 FF 00 00 FF 4A 36 46 31 20 2D 20	.........J6F1 - 
+4C 56 44 53 00 00                              	LVDS..          
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0016 (22)
+Internal Reference Designator	String1 - "J6F1 - LVDS"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	NULL
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 17 00 01 FF 00 00 FF 4A 32 46 31 20 2D 20	.........J2F1 - 
+4C 41 49 20 46 41 4E 00 00                     	LAI FAN..       
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0017 (23)
+Internal Reference Designator	String1 - "J2F1 - LAI FAN"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	NULL
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 18 00 01 FF 00 00 FF 4A 32 47 31 20 2D 20	.........J2G1 - 
+47 46 58 20 56 49 44 00 00                     	GFX VID..       
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0018 (24)
+Internal Reference Designator	String1 - "J2G1 - GFX VID"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	NULL
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 19 00 01 FF 00 00 FF 4A 31 47 36 20 2D 20	.........J1G6 - 
+41 43 20 4A 41 43 4B 00 00                     	AC JACK..       
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0019 (25)
+Internal Reference Designator	String1 - "J1G6 - AC JACK"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	NULL
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[System Slots Information] (Type 9)
+09 11 1A 00 01 A5 0D 04 04 00 00 0C 01 00 00 00	................
+08 4A 36 42 32 00 00                           	.J6B2..         
+Type	0x09 (9)
+Length	0x11 (17)
+Handle	0x001A (26)
+Slot Designation	String1 - "J6B2"
+Slot Type	0xA5 - PCI Express 
+Slot Data Bus Width	0x0D - 16x or x16 
+Current Usage	0x04 - In use 
+Slot Length	0x04 - Long Length 
+Slot ID	0x0000 (0) - Slot Number of PCI Routing table
+Slot Characteristics 1	0x0C
+  Bit0	Characteristics Unknown - 0 (No)
+  Bit1	Provides 5.0 Volts - 0 (No)
+  Bit2	Provides 3.3 Volts - 1 (Yes)
+  Bit3	Slot's opening is shared with another slot, e.g. PCI/EISA shared slot - 1 (Yes)
+  Bit4	PC Card slot supports PC Card-16 - 0 (No)
+  Bit5	PC Card slot supports CardBus - 0 (No)
+  Bit6	PC Card slot supports Zoom Video - 0 (No)
+  Bit7	PC Card slot supports Modem Ring Resume - 0 (No)
+Slot Characteristics 2	0x01
+  Bit0	PCI slot supports Power Management Enable (PME#) signal - 1 (Yes)
+  Bit1	Slot supports hot-plug devices - 0 (No)
+  Bit2	PCI slot supports SMBus signal - 0 (No)
+Segment Group Number	0x0000
+Bus Number	0x00
+Device/Function Number	0x08
+
+
+[System Slots Information] (Type 9)
+09 11 1B 00 01 A5 08 04 03 01 00 0C 01 00 00 00	................
+E3 4A 36 42 31 00 00                           	.J6B1..         
+Type	0x09 (9)
+Length	0x11 (17)
+Handle	0x001B (27)
+Slot Designation	String1 - "J6B1"
+Slot Type	0xA5 - PCI Express 
+Slot Data Bus Width	0x08 - 1x or x1 
+Current Usage	0x04 - In use 
+Slot Length	0x03 - Short Length 
+Slot ID	0x0001 (1) - Slot Number of PCI Routing table
+Slot Characteristics 1	0x0C
+  Bit0	Characteristics Unknown - 0 (No)
+  Bit1	Provides 5.0 Volts - 0 (No)
+  Bit2	Provides 3.3 Volts - 1 (Yes)
+  Bit3	Slot's opening is shared with another slot, e.g. PCI/EISA shared slot - 1 (Yes)
+  Bit4	PC Card slot supports PC Card-16 - 0 (No)
+  Bit5	PC Card slot supports CardBus - 0 (No)
+  Bit6	PC Card slot supports Zoom Video - 0 (No)
+  Bit7	PC Card slot supports Modem Ring Resume - 0 (No)
+Slot Characteristics 2	0x01
+  Bit0	PCI slot supports Power Management Enable (PME#) signal - 1 (Yes)
+  Bit1	Slot supports hot-plug devices - 0 (No)
+  Bit2	PCI slot supports SMBus signal - 0 (No)
+Segment Group Number	0x0000
+Bus Number	0x00
+Device/Function Number	0xE3
+
+
+[System Slots Information] (Type 9)
+09 11 1C 00 01 A5 08 04 03 02 00 0C 01 00 00 00	................
+E4 4A 36 44 31 00 00                           	.J6D1..         
+Type	0x09 (9)
+Length	0x11 (17)
+Handle	0x001C (28)
+Slot Designation	String1 - "J6D1"
+Slot Type	0xA5 - PCI Express 
+Slot Data Bus Width	0x08 - 1x or x1 
+Current Usage	0x04 - In use 
+Slot Length	0x03 - Short Length 
+Slot ID	0x0002 (2) - Slot Number of PCI Routing table
+Slot Characteristics 1	0x0C
+  Bit0	Characteristics Unknown - 0 (No)
+  Bit1	Provides 5.0 Volts - 0 (No)
+  Bit2	Provides 3.3 Volts - 1 (Yes)
+  Bit3	Slot's opening is shared with another slot, e.g. PCI/EISA shared slot - 1 (Yes)
+  Bit4	PC Card slot supports PC Card-16 - 0 (No)
+  Bit5	PC Card slot supports CardBus - 0 (No)
+  Bit6	PC Card slot supports Zoom Video - 0 (No)
+  Bit7	PC Card slot supports Modem Ring Resume - 0 (No)
+Slot Characteristics 2	0x01
+  Bit0	PCI slot supports Power Management Enable (PME#) signal - 1 (Yes)
+  Bit1	Slot supports hot-plug devices - 0 (No)
+  Bit2	PCI slot supports SMBus signal - 0 (No)
+Segment Group Number	0x0000
+Bus Number	0x00
+Device/Function Number	0xE4
+
+
+[System Slots Information] (Type 9)
+09 11 1D 00 01 A5 08 04 03 03 00 0C 01 00 00 00	................
+E5 4A 37 42 31 00 00                           	.J7B1..         
+Type	0x09 (9)
+Length	0x11 (17)
+Handle	0x001D (29)
+Slot Designation	String1 - "J7B1"
+Slot Type	0xA5 - PCI Express 
+Slot Data Bus Width	0x08 - 1x or x1 
+Current Usage	0x04 - In use 
+Slot Length	0x03 - Short Length 
+Slot ID	0x0003 (3) - Slot Number of PCI Routing table
+Slot Characteristics 1	0x0C
+  Bit0	Characteristics Unknown - 0 (No)
+  Bit1	Provides 5.0 Volts - 0 (No)
+  Bit2	Provides 3.3 Volts - 1 (Yes)
+  Bit3	Slot's opening is shared with another slot, e.g. PCI/EISA shared slot - 1 (Yes)
+  Bit4	PC Card slot supports PC Card-16 - 0 (No)
+  Bit5	PC Card slot supports CardBus - 0 (No)
+  Bit6	PC Card slot supports Zoom Video - 0 (No)
+  Bit7	PC Card slot supports Modem Ring Resume - 0 (No)
+Slot Characteristics 2	0x01
+  Bit0	PCI slot supports Power Management Enable (PME#) signal - 1 (Yes)
+  Bit1	Slot supports hot-plug devices - 0 (No)
+  Bit2	PCI slot supports SMBus signal - 0 (No)
+Segment Group Number	0x0000
+Bus Number	0x00
+Device/Function Number	0xE5
+
+
+[System Slots Information] (Type 9)
+09 11 1E 00 01 A5 08 04 03 04 00 0C 01 00 00 00	................
+E6 4A 38 42 34 00 00                           	.J8B4..         
+Type	0x09 (9)
+Length	0x11 (17)
+Handle	0x001E (30)
+Slot Designation	String1 - "J8B4"
+Slot Type	0xA5 - PCI Express 
+Slot Data Bus Width	0x08 - 1x or x1 
+Current Usage	0x04 - In use 
+Slot Length	0x03 - Short Length 
+Slot ID	0x0004 (4) - Slot Number of PCI Routing table
+Slot Characteristics 1	0x0C
+  Bit0	Characteristics Unknown - 0 (No)
+  Bit1	Provides 5.0 Volts - 0 (No)
+  Bit2	Provides 3.3 Volts - 1 (Yes)
+  Bit3	Slot's opening is shared with another slot, e.g. PCI/EISA shared slot - 1 (Yes)
+  Bit4	PC Card slot supports PC Card-16 - 0 (No)
+  Bit5	PC Card slot supports CardBus - 0 (No)
+  Bit6	PC Card slot supports Zoom Video - 0 (No)
+  Bit7	PC Card slot supports Modem Ring Resume - 0 (No)
+Slot Characteristics 2	0x01
+  Bit0	PCI slot supports Power Management Enable (PME#) signal - 1 (Yes)
+  Bit1	Slot supports hot-plug devices - 0 (No)
+  Bit2	PCI slot supports SMBus signal - 0 (No)
+Segment Group Number	0x0000
+Bus Number	0x00
+Device/Function Number	0xE6
+
+
+[System Slots Information] (Type 9)
+09 11 1F 00 01 A5 08 04 03 05 00 0C 01 00 00 00	................
+E7 4A 38 44 31 00 00                           	.J8D1..         
+Type	0x09 (9)
+Length	0x11 (17)
+Handle	0x001F (31)
+Slot Designation	String1 - "J8D1"
+Slot Type	0xA5 - PCI Express 
+Slot Data Bus Width	0x08 - 1x or x1 
+Current Usage	0x04 - In use 
+Slot Length	0x03 - Short Length 
+Slot ID	0x0005 (5) - Slot Number of PCI Routing table
+Slot Characteristics 1	0x0C
+  Bit0	Characteristics Unknown - 0 (No)
+  Bit1	Provides 5.0 Volts - 0 (No)
+  Bit2	Provides 3.3 Volts - 1 (Yes)
+  Bit3	Slot's opening is shared with another slot, e.g. PCI/EISA shared slot - 1 (Yes)
+  Bit4	PC Card slot supports PC Card-16 - 0 (No)
+  Bit5	PC Card slot supports CardBus - 0 (No)
+  Bit6	PC Card slot supports Zoom Video - 0 (No)
+  Bit7	PC Card slot supports Modem Ring Resume - 0 (No)
+Slot Characteristics 2	0x01
+  Bit0	PCI slot supports Power Management Enable (PME#) signal - 1 (Yes)
+  Bit1	Slot supports hot-plug devices - 0 (No)
+  Bit2	PCI slot supports SMBus signal - 0 (No)
+Segment Group Number	0x0000
+Bus Number	0x00
+Device/Function Number	0xE7
+
+
+[System Slots Information] (Type 9)
+09 11 20 00 01 06 05 04 03 06 00 0C 01 00 00 00	.. .............
+F0 4A 38 42 33 00 00                           	.J8B3..         
+Type	0x09 (9)
+Length	0x11 (17)
+Handle	0x0020 (32)
+Slot Designation	String1 - "J8B3"
+Slot Type	0x06 - PCI 
+Slot Data Bus Width	0x05 - 32 bit 
+Current Usage	0x04 - In use 
+Slot Length	0x03 - Short Length 
+Slot ID	0x0006 (6) - Slot Number of PCI Routing table
+Slot Characteristics 1	0x0C
+  Bit0	Characteristics Unknown - 0 (No)
+  Bit1	Provides 5.0 Volts - 0 (No)
+  Bit2	Provides 3.3 Volts - 1 (Yes)
+  Bit3	Slot's opening is shared with another slot, e.g. PCI/EISA shared slot - 1 (Yes)
+  Bit4	PC Card slot supports PC Card-16 - 0 (No)
+  Bit5	PC Card slot supports CardBus - 0 (No)
+  Bit6	PC Card slot supports Zoom Video - 0 (No)
+  Bit7	PC Card slot supports Modem Ring Resume - 0 (No)
+Slot Characteristics 2	0x01
+  Bit0	PCI slot supports Power Management Enable (PME#) signal - 1 (Yes)
+  Bit1	Slot supports hot-plug devices - 0 (No)
+  Bit2	PCI slot supports SMBus signal - 0 (No)
+Segment Group Number	0x0000
+Bus Number	0x00
+Device/Function Number	0xF0
+
+
+[OEM Strings] (Type 11)
+0B 05 21 00 01 44 65 66 61 75 6C 74 20 73 74 72	..!..Default str
+69 6E 67 00 00                                 	ing..           
+Type	0x0B (11)
+Length	0x05 (5)
+Handle	0x0021 (33)
+Count	0x01 (1)
+  String1 - "Default string"
+
+
+[System Configuration Options] (Type 12)
+0C 05 22 00 01 44 65 66 61 75 6C 74 20 73 74 72	.."..Default str
+69 6E 67 00 00                                 	ing..           
+Type	0x0C (12)
+Length	0x05 (5)
+Handle	0x0022 (34)
+Count	0x01 (1)
+  String1 - "Default string"
+
+
+[System Boot Information] (Type 32)
+20 14 23 00 00 00 00 00 00 00 00 00 00 00 00 00	 .#.............
+00 00 00 00 00 00                              	......          
+Type	0x20 (32)
+Length	0x14 (20)
+Handle	0x0023 (35)
+Reserved	0x000000000000
+Boot Status	0x00000000000000000000
+  Status Description	0x00 - No errors detected 
+
+
+[Management Device] (Type 34)
+22 0B 24 00 01 04 00 00 00 00 03 4C 4D 37 38 2D	".$........LM78-
+31 00 00                                       	1..             
+Type	0x22 (34)
+Length	0x0B (11)
+Handle	0x0024 (36)
+Description	String1 - "LM78-1"
+Type	0x04 - National Semiconductor LM78 
+Address	0x00000000
+Address Type	0x03 - I/O Port 
+
+
+[Voltage Probe] (Type 26)
+1A 16 25 00 01 67 00 80 00 80 00 80 00 80 00 80	..%..g..........
+00 00 00 00 00 80 4C 4D 37 38 41 00 00         	......LM78A..   
+Type	0x1A (26)
+Length	0x16 (22)
+Handle	0x0025 (37)
+Description	String1 - "LM78A"
+Location and Status	0x67
+Maximum Value	0x8000
+Minimum Value	0x8000
+Resolution	0x8000
+Tolerance	0x8000
+Accuracy	0x8000
+OEM-Defined	0x00000000
+Nominal Value	0x8000
+
+
+[Management Device Threshold Data] (Type 36)
+24 10 26 00 01 00 02 00 03 00 04 00 05 00 06 00	$.&.............
+00 00                                          	..              
+Type	0x24 (36)
+Length	0x10 (16)
+Handle	0x0026 (38)
+Lower Threshold Non-critical	0x0001
+Upper Threshold Non-critical	0x0002
+Lower Threshold Critical	0x0003
+Upper Threshold Critical	0x0004
+Lower Threshold Non-recoverable	0x0005
+Upper Threshold Non-recoverable	0x0006
+
+
+[Management Device Component] (Type 35)
+23 0B 27 00 01 24 00 25 00 26 00 44 65 66 61 75	#.'..$.%.&.Defau
+6C 74 20 73 74 72 69 6E 67 00 00               	lt string..     
+Type	0x23 (35)
+Length	0x0B (11)
+Handle	0x0027 (39)
+Description	String1 - "Default string"
+Management Device Handle	0x0024
+Component Handle	0x0025
+Threshold Handle	0x0026
+
+
+[Temperature Probe] (Type 28)
+1C 16 28 00 01 67 00 80 00 80 00 80 00 80 00 80	..(..g..........
+00 00 00 00 00 80 4C 4D 37 38 41 00 00         	......LM78A..   
+Type	0x1C (28)
+Length	0x16 (22)
+Handle	0x0028 (40)
+Description	String1 - "LM78A"
+Location and Status	0x67
+Maximum Value	0x8000
+Minimum Value	0x8000
+Resolution	0x8000
+Tolerance	0x8000
+Accuracy	0x8000
+OEM-Defined	0x00000000
+Nominal Value	0x8000
+
+
+[Management Device Threshold Data] (Type 36)
+24 10 29 00 01 00 02 00 03 00 04 00 05 00 06 00	$.).............
+00 00                                          	..              
+Type	0x24 (36)
+Length	0x10 (16)
+Handle	0x0029 (41)
+Lower Threshold Non-critical	0x0001
+Upper Threshold Non-critical	0x0002
+Lower Threshold Critical	0x0003
+Upper Threshold Critical	0x0004
+Lower Threshold Non-recoverable	0x0005
+Upper Threshold Non-recoverable	0x0006
+
+
+[Management Device Component] (Type 35)
+23 0B 2A 00 01 24 00 28 00 29 00 44 65 66 61 75	#.*..$.(.).Defau
+6C 74 20 73 74 72 69 6E 67 00 00               	lt string..     
+Type	0x23 (35)
+Length	0x0B (11)
+Handle	0x002A (42)
+Description	String1 - "Default string"
+Management Device Handle	0x0024
+Component Handle	0x0028
+Threshold Handle	0x0029
+
+
+[Cooling Device] (Type 27)
+1B 0F 2B 00 28 00 67 01 00 00 00 00 00 80 01 43	..+.(.g........C
+6F 6F 6C 69 6E 67 20 44 65 76 20 31 00 00      	ooling Dev 1..  
+Type	0x1B (27)
+Length	0x0F (15)
+Handle	0x002B (43)
+Temperature Probe Handle	0x0028
+Device Type and Status	0x67
+Cooling Unit Group	0x01
+OEM-Defined	0x00000000
+Nominal Speed	0x8000
+Description	String1 - "Cooling Dev 1"
+
+
+[Management Device Threshold Data] (Type 36)
+24 10 2C 00 01 00 02 00 03 00 04 00 05 00 06 00	$.,.............
+00 00                                          	..              
+Type	0x24 (36)
+Length	0x10 (16)
+Handle	0x002C (44)
+Lower Threshold Non-critical	0x0001
+Upper Threshold Non-critical	0x0002
+Lower Threshold Critical	0x0003
+Upper Threshold Critical	0x0004
+Lower Threshold Non-recoverable	0x0005
+Upper Threshold Non-recoverable	0x0006
+
+
+[Management Device Component] (Type 35)
+23 0B 2D 00 01 24 00 2B 00 2C 00 44 65 66 61 75	#.-..$.+.,.Defau
+6C 74 20 73 74 72 69 6E 67 00 00               	lt string..     
+Type	0x23 (35)
+Length	0x0B (11)
+Handle	0x002D (45)
+Description	String1 - "Default string"
+Management Device Handle	0x0024
+Component Handle	0x002B
+Threshold Handle	0x002C
+
+
+[Cooling Device] (Type 27)
+1B 0F 2E 00 28 00 67 01 00 00 00 00 00 80 00 00	....(.g.........
+00                                             	.               
+Type	0x1B (27)
+Length	0x0F (15)
+Handle	0x002E (46)
+Temperature Probe Handle	0x0028
+Device Type and Status	0x67
+Cooling Unit Group	0x01
+OEM-Defined	0x00000000
+Nominal Speed	0x8000
+Description	NULL
+
+
+[Management Device Threshold Data] (Type 36)
+24 10 2F 00 01 00 02 00 03 00 04 00 05 00 06 00	$./.............
+00 00                                          	..              
+Type	0x24 (36)
+Length	0x10 (16)
+Handle	0x002F (47)
+Lower Threshold Non-critical	0x0001
+Upper Threshold Non-critical	0x0002
+Lower Threshold Critical	0x0003
+Upper Threshold Critical	0x0004
+Lower Threshold Non-recoverable	0x0005
+Upper Threshold Non-recoverable	0x0006
+
+
+[Management Device Component] (Type 35)
+23 0B 30 00 01 24 00 2E 00 2F 00 44 65 66 61 75	#.0..$.../.Defau
+6C 74 20 73 74 72 69 6E 67 00 00               	lt string..     
+Type	0x23 (35)
+Length	0x0B (11)
+Handle	0x0030 (48)
+Description	String1 - "Default string"
+Management Device Handle	0x0024
+Component Handle	0x002E
+Threshold Handle	0x002F
+
+
+[Electrical Current Probe] (Type 29)
+1D 16 31 00 01 67 00 80 00 80 00 80 00 80 00 80	..1..g..........
+00 00 00 00 00 80 41 42 43 00 00               	......ABC..     
+Type	0x1D (29)
+Length	0x16 (22)
+Handle	0x0031 (49)
+Description	String1 - "ABC"
+Location and Status	0x67
+Maximum Value	0x8000
+Minimum Value	0x8000
+Resolution	0x8000
+Tolerance	0x8000
+Accuracy	0x8000
+OEM-Defined	0x00000000
+Nominal Value	0x8000
+
+
+[Management Device Threshold Data] (Type 36)
+24 10 32 00 00 80 00 80 00 80 00 80 00 80 00 80	$.2.............
+00 00                                          	..              
+Type	0x24 (36)
+Length	0x10 (16)
+Handle	0x0032 (50)
+Lower Threshold Non-critical	0x8000
+Upper Threshold Non-critical	0x8000
+Lower Threshold Critical	0x8000
+Upper Threshold Critical	0x8000
+Lower Threshold Non-recoverable	0x8000
+Upper Threshold Non-recoverable	0x8000
+
+
+[Management Device Component] (Type 35)
+23 0B 33 00 01 24 00 31 00 32 00 44 65 66 61 75	#.3..$.1.2.Defau
+6C 74 20 73 74 72 69 6E 67 00 00               	lt string..     
+Type	0x23 (35)
+Length	0x0B (11)
+Handle	0x0033 (51)
+Description	String1 - "Default string"
+Management Device Handle	0x0024
+Component Handle	0x0031
+Threshold Handle	0x0032
+
+
+[Voltage Probe] (Type 26)
+1A 16 34 00 01 6A 00 80 00 80 00 80 00 80 00 80	..4..j..........
+00 00 00 00 00 80 4C 4D 37 38 41 00 00         	......LM78A..   
+Type	0x1A (26)
+Length	0x16 (22)
+Handle	0x0034 (52)
+Description	String1 - "LM78A"
+Location and Status	0x6A
+Maximum Value	0x8000
+Minimum Value	0x8000
+Resolution	0x8000
+Tolerance	0x8000
+Accuracy	0x8000
+OEM-Defined	0x00000000
+Nominal Value	0x8000
+
+
+[Temperature Probe] (Type 28)
+1C 16 35 00 01 6A 00 80 00 80 00 80 00 80 00 80	..5..j..........
+00 00 00 00 00 80 4C 4D 37 38 41 00 00         	......LM78A..   
+Type	0x1C (28)
+Length	0x16 (22)
+Handle	0x0035 (53)
+Description	String1 - "LM78A"
+Location and Status	0x6A
+Maximum Value	0x8000
+Minimum Value	0x8000
+Resolution	0x8000
+Tolerance	0x8000
+Accuracy	0x8000
+OEM-Defined	0x00000000
+Nominal Value	0x8000
+
+
+[Cooling Device] (Type 27)
+1B 0F 36 00 35 00 67 01 00 00 00 00 00 80 01 43	..6.5.g........C
+6F 6F 6C 69 6E 67 20 44 65 76 20 31 00 00      	ooling Dev 1..  
+Type	0x1B (27)
+Length	0x0F (15)
+Handle	0x0036 (54)
+Temperature Probe Handle	0x0035
+Device Type and Status	0x67
+Cooling Unit Group	0x01
+OEM-Defined	0x00000000
+Nominal Speed	0x8000
+Description	String1 - "Cooling Dev 1"
+
+
+[Electrical Current Probe] (Type 29)
+1D 16 37 00 01 6A 00 80 00 80 00 80 00 80 00 80	..7..j..........
+00 00 00 00 00 80 41 42 43 00 00               	......ABC..     
+Type	0x1D (29)
+Length	0x16 (22)
+Handle	0x0037 (55)
+Description	String1 - "ABC"
+Location and Status	0x6A
+Maximum Value	0x8000
+Minimum Value	0x8000
+Resolution	0x8000
+Tolerance	0x8000
+Accuracy	0x8000
+OEM-Defined	0x00000000
+Nominal Value	0x8000
+
+
+[System Power Supply] (Type 39)
+27 16 38 00 01 01 02 03 04 05 06 07 00 80 A2 11	'.8.............
+34 00 36 00 37 00 54 6F 20 42 65 20 46 69 6C 6C	4.6.7.To Be Fill
+65 64 20 42 79 20 4F 2E 45 2E 4D 2E 00 54 6F 20	ed By O.E.M..To 
+42 65 20 46 69 6C 6C 65 64 20 42 79 20 4F 2E 45	Be Filled By O.E
+2E 4D 2E 00 54 6F 20 42 65 20 46 69 6C 6C 65 64	.M..To Be Filled
+20 42 79 20 4F 2E 45 2E 4D 2E 00 54 6F 20 42 65	 By O.E.M..To Be
+20 46 69 6C 6C 65 64 20 42 79 20 4F 2E 45 2E 4D	 Filled By O.E.M
+2E 00 54 6F 20 42 65 20 46 69 6C 6C 65 64 20 42	..To Be Filled B
+79 20 4F 2E 45 2E 4D 2E 00 54 6F 20 42 65 20 46	y O.E.M..To Be F
+69 6C 6C 65 64 20 42 79 20 4F 2E 45 2E 4D 2E 00	illed By O.E.M..
+54 6F 20 42 65 20 46 69 6C 6C 65 64 20 42 79 20	To Be Filled By 
+4F 2E 45 2E 4D 2E 00 00                        	O.E.M...        
+Type	0x27 (39)
+Length	0x16 (22)
+Handle	0x0038 (56)
+Power Unit Group	0x01
+Location	String1 - "To Be Filled By O.E.M."
+Device Name	String2 - "To Be Filled By O.E.M."
+Manufacturer	String3 - "To Be Filled By O.E.M."
+Serial Number	String4 - "To Be Filled By O.E.M."
+Asset Tag Number	String5 - "To Be Filled By O.E.M."
+Model Part Number	String6 - "To Be Filled By O.E.M."
+Revision Level	String7 - "To Be Filled By O.E.M."
+Max Power Capacity	0x8000
+Power Supply Characteristics	0x11A2
+Input Voltage Probe Handle	0x0034
+Cooling Device Handle	0x0036
+Input Current Probe Handle	0x0037
+
+
+[Unknown]
+2C 09 39 00 FF FF 01 01 00 00 00               	,.9........     
+Type	0x2C (44)
+Length	0x09 (9)
+Handle	0x0039 (57)
+
+
+[Unknown]
+2B 1F 3A 00 49 4E 54 43 02 00 07 00 58 02 00 00	+.:.INTC....X...
+00 00 02 10 00 00 00 00 00 00 00 00 00 00 00 54	...............T
+50 4D 20 32 2E 30 00 49 4E 54 45 4C 00 00      	PM 2.0.INTEL..  
+Type	0x2B (43)
+Length	0x1F (31)
+Handle	0x003A (58)
+
+
+[Physical Memory Array] (Type 16)
+10 17 3B 00 03 03 03 00 00 00 04 FE FF 04 00 00	..;.............
+00 00 00 00 00 00 00 00 00                     	.........       
+Type	0x10 (16)
+Length	0x17 (23)
+Handle	0x003B (59)
+Location	0x03 - System board or motherboard 
+Use	0x03 - System memory 
+Memory Error Correction	0x03 - None 
+Maximum Capacity	0x04000000 - 67108864KB, 65536MB, 64.00GB
+Memory Error Handle	0xFFFE
+Number of Memory Devices	0x0004 (4)
+Extended Maximum Capacity	0x0000000000000000 (0)
+
+
+[Memory Array Mapped Address] (Type 19)
+13 1F 40 00 00 00 00 00 FF FF 7F 01 3B 00 02 00	..@.........;...
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00	................
+00                                             	.               
+Type	0x13 (19)
+Length	0x1F (31)
+Handle	0x0040 (64)
+Starting Address	0x00000000
+Ending Address	0x017FFFFF - 25165823KB, 24576MB, 24.00GB
+Memory Array Handle	0x003B (59)
+Partition Width	0x02 (2)
+Extended Starting Address	0x0000000000000000 (0)
+Extended Ending Address	0x0000000000000000 (0)
+
+
+[Memory Device] (Type 17)
+11 5C 41 00 3B 00 FE FF 40 00 40 00 00 40 09 00	.\A.;...@.@..@..
+01 02 1A 80 00 60 09 03 04 05 06 01 00 00 00 00	.....`..........
+60 09 B0 04 B0 04 B0 04 03 08 00 00 04 CB 00 00	`...............
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00	................
+04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00	................
+00 00 00 00 00 00 00 00 00 00 00 00 43 6F 6E 74	............Cont
+72 6F 6C 6C 65 72 30 2D 43 68 61 6E 6E 65 6C 41	roller0-ChannelA
+00 42 41 4E 4B 20 30 00 41 2D 44 41 54 41 20 54	.BANK 0.A-DATA T
+65 63 68 6E 6F 6C 6F 67 79 00 43 45 42 34 30 30	echnology.CEB400
+30 30 00 39 38 37 36 35 34 33 32 31 30 00 20 20	00.9876543210.  
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20	                
+20 20 00 00                                    	  ..            
+Type	0x11 (17)
+Length	0x5C (92)
+Handle	0x0041 (65)
+Memory Array Handle	0x003B
+Memory Error Handle	0xFFFE - No error information structure
+Total Width	0x0040 (64)bits
+Data Width	0x0040 (64)bits
+Size	0x4000 - 16777216KB, 16384MB, 16.00GB
+Form Factor	0x09 - DIMM 
+Device Set	0x00 - Not part of a set
+Device Locator	String1 - "Controller0-ChannelA"
+Bank Locator	String2 - "BANK 0"
+Memory Type	0x1A
+Type Detail	0x0080
+  Bit0	Reserved - 0 (No)
+  Bit1	Other - 0 (No)
+  Bit2	Unknown - 0 (No)
+  Bit3	Fast-paged - 0 (No)
+  Bit4	Static column - 0 (No)
+  Bit5	Pseudo-static - 0 (No)
+  Bit6	RAMBUS - 0 (No)
+  Bit7	Synchronous - 1 (Yes)
+  Bit8	CMOS - 0 (No)
+  Bit9	EDO - 0 (No)
+  Bit10	Window DRAM - 0 (No)
+  Bit11	Cache DRAM - 0 (No)
+  Bit12	Non-volatile - 0 (No)
+Speed	0x0960
+Manufacturer	String3 - "A-DATA Technology"
+Serial Number	String4 - "CEB40000"
+Asset Tag	String5 - "9876543210"
+Part Number	String6 - "                    "
+Attributes (rank)	0x01
+Extended Size	0x00000000 - 
+Clock Speed	0x0960 - 2400MHz
+
+
+[Memory Device] (Type 17)
+11 5C 42 00 3B 00 FE FF 00 00 00 00 00 00 02 00	.\B.;...........
+01 02 02 00 00 00 00 00 00 00 00 00 00 00 00 00	................
+00 00 00 00 00 00 00 00 00 08 00 00 00 00 00 00	................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00	................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00	................
+00 00 00 00 00 00 00 00 00 00 00 00 43 6F 6E 74	............Cont
+72 6F 6C 6C 65 72 30 2D 43 68 61 6E 6E 65 6C 41	roller0-ChannelA
+2D 44 49 4D 4D 31 00 42 41 4E 4B 20 30 00 39 38	-DIMM1.BANK 0.98
+37 36 35 34 33 32 31 30 00 00                  	76543210..      
+Type	0x11 (17)
+Length	0x5C (92)
+Handle	0x0042 (66)
+Memory Array Handle	0x003B
+Memory Error Handle	0xFFFE - No error information structure
+Total Width	0x0000 (0)bits
+Data Width	0x0000 (0)bits
+Size	0x0000 - Not installed
+Form Factor	0x02 - Unknown 
+Device Set	0x00 - Not part of a set
+Device Locator	String1 - "Controller0-ChannelA-DIMM1"
+Bank Locator	String2 - "BANK 0"
+Memory Type	0x02 - Unknown 
+Type Detail	0x0000
+  Bit0	Reserved - 0 (No)
+  Bit1	Other - 0 (No)
+  Bit2	Unknown - 0 (No)
+  Bit3	Fast-paged - 0 (No)
+  Bit4	Static column - 0 (No)
+  Bit5	Pseudo-static - 0 (No)
+  Bit6	RAMBUS - 0 (No)
+  Bit7	Synchronous - 0 (No)
+  Bit8	CMOS - 0 (No)
+  Bit9	EDO - 0 (No)
+  Bit10	Window DRAM - 0 (No)
+  Bit11	Cache DRAM - 0 (No)
+  Bit12	Non-volatile - 0 (No)
+Speed	0x0000 - Unknown
+Manufacturer	NULL
+Serial Number	NULL
+Asset Tag	NULL
+Part Number	NULL
+Attributes (rank)	0x00
+Extended Size	0x00000000 - 
+Clock Speed	0x0000 - 0MHz
+
+
+[Memory Device] (Type 17)
+11 5C 43 00 3B 00 FE FF 40 00 40 00 00 20 09 00	.\C.;...@.@.. ..
+01 02 1A 80 00 60 09 03 04 05 06 01 00 00 00 00	.....`..........
+60 09 B0 04 B0 04 B0 04 03 08 00 00 00 AD 00 00	`...............
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00	................
+02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00	................
+00 00 00 00 00 00 00 00 00 00 00 00 43 6F 6E 74	............Cont
+72 6F 6C 6C 65 72 30 2D 43 68 61 6E 6E 65 6C 42	roller0-ChannelB
+00 42 41 4E 4B 20 31 00 53 4B 20 48 79 6E 69 78	.BANK 1.SK Hynix
+00 35 31 41 32 35 44 42 35 00 39 38 37 36 35 34	.51A25DB5.987654
+33 32 31 30 00 48 4D 41 38 31 47 55 36 41 46 52	3210.HMA81GU6AFR
+38 4E 2D 55 48 20 20 20 20 00 00               	8N-UH    ..     
+Type	0x11 (17)
+Length	0x5C (92)
+Handle	0x0043 (67)
+Memory Array Handle	0x003B
+Memory Error Handle	0xFFFE - No error information structure
+Total Width	0x0040 (64)bits
+Data Width	0x0040 (64)bits
+Size	0x2000 - 8388608KB, 8192MB, 8.00GB
+Form Factor	0x09 - DIMM 
+Device Set	0x00 - Not part of a set
+Device Locator	String1 - "Controller0-ChannelB"
+Bank Locator	String2 - "BANK 1"
+Memory Type	0x1A
+Type Detail	0x0080
+  Bit0	Reserved - 0 (No)
+  Bit1	Other - 0 (No)
+  Bit2	Unknown - 0 (No)
+  Bit3	Fast-paged - 0 (No)
+  Bit4	Static column - 0 (No)
+  Bit5	Pseudo-static - 0 (No)
+  Bit6	RAMBUS - 0 (No)
+  Bit7	Synchronous - 1 (Yes)
+  Bit8	CMOS - 0 (No)
+  Bit9	EDO - 0 (No)
+  Bit10	Window DRAM - 0 (No)
+  Bit11	Cache DRAM - 0 (No)
+  Bit12	Non-volatile - 0 (No)
+Speed	0x0960
+Manufacturer	String3 - "SK Hynix"
+Serial Number	String4 - "51A25DB5"
+Asset Tag	String5 - "9876543210"
+Part Number	String6 - "HMA81GU6AFR8N-UH    "
+Attributes (rank)	0x01
+Extended Size	0x00000000 - 
+Clock Speed	0x0960 - 2400MHz
+
+
+[Memory Device] (Type 17)
+11 5C 44 00 3B 00 FE FF 00 00 00 00 00 00 02 00	.\D.;...........
+01 02 02 00 00 00 00 00 00 00 00 00 00 00 00 00	................
+00 00 00 00 00 00 00 00 00 08 00 00 00 00 00 00	................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00	................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00	................
+00 00 00 00 00 00 00 00 00 00 00 00 43 6F 6E 74	............Cont
+72 6F 6C 6C 65 72 30 2D 43 68 61 6E 6E 65 6C 42	roller0-ChannelB
+2D 44 49 4D 4D 31 00 42 41 4E 4B 20 31 00 39 38	-DIMM1.BANK 1.98
+37 36 35 34 33 32 31 30 00 00                  	76543210..      
+Type	0x11 (17)
+Length	0x5C (92)
+Handle	0x0044 (68)
+Memory Array Handle	0x003B
+Memory Error Handle	0xFFFE - No error information structure
+Total Width	0x0000 (0)bits
+Data Width	0x0000 (0)bits
+Size	0x0000 - Not installed
+Form Factor	0x02 - Unknown 
+Device Set	0x00 - Not part of a set
+Device Locator	String1 - "Controller0-ChannelB-DIMM1"
+Bank Locator	String2 - "BANK 1"
+Memory Type	0x02 - Unknown 
+Type Detail	0x0000
+  Bit0	Reserved - 0 (No)
+  Bit1	Other - 0 (No)
+  Bit2	Unknown - 0 (No)
+  Bit3	Fast-paged - 0 (No)
+  Bit4	Static column - 0 (No)
+  Bit5	Pseudo-static - 0 (No)
+  Bit6	RAMBUS - 0 (No)
+  Bit7	Synchronous - 0 (No)
+  Bit8	CMOS - 0 (No)
+  Bit9	EDO - 0 (No)
+  Bit10	Window DRAM - 0 (No)
+  Bit11	Cache DRAM - 0 (No)
+  Bit12	Non-volatile - 0 (No)
+Speed	0x0000 - Unknown
+Manufacturer	NULL
+Serial Number	NULL
+Asset Tag	NULL
+Part Number	NULL
+Attributes (rank)	0x00
+Extended Size	0x00000000 - 
+Clock Speed	0x0000 - 0MHz
+
+
+[Memory Device Mapped Address] (Type 20)
+14 23 45 00 00 00 00 00 FF FF FF 00 41 00 40 00	.#E.........A.@.
+FF 01 02 00 00 00 00 00 00 00 00 00 00 00 00 00	................
+00 00 00 00 00                                 	.....           
+Type	0x14 (20)
+Length	0x23 (35)
+Handle	0x0045 (69)
+Starting Address	0x00000000
+Ending Address	0x00FFFFFF - 16777215KB, 16384MB, 16.00GB
+Memory Device Handle	0x0041 (65)
+Array Mapped Addrress Handle	0x0040 (64)
+Partition Row Position	0xFF (255)
+InterLeave Position	0x01 (1)
+Interleaved Data Depth	0x02 (2)
+Extended Starting Address	0x0000000000000000 (0)
+Extended Ending Address	0x0000000000000000 (0)
+
+
+[Memory Device Mapped Address] (Type 20)
+14 23 46 00 00 00 00 01 FF FF 7F 01 43 00 40 00	.#F.........C.@.
+FF 02 02 00 00 00 00 00 00 00 00 00 00 00 00 00	................
+00 00 00 00 00                                 	.....           
+Type	0x14 (20)
+Length	0x23 (35)
+Handle	0x0046 (70)
+Starting Address	0x01000000 - 16777216KB, 16384MB, 16.00GB
+Ending Address	0x017FFFFF - 25165823KB, 24576MB, 24.00GB
+Memory Device Handle	0x0043 (67)
+Array Mapped Addrress Handle	0x0040 (64)
+Partition Row Position	0xFF (255)
+InterLeave Position	0x02 (2)
+Interleaved Data Depth	0x02 (2)
+Extended Starting Address	0x0000000000000000 (0)
+Extended Ending Address	0x0000000000000000 (0)
+
+
+[Unknown]
+DD 1A 47 00 03 01 00 0B 01 36 20 00 02 00 00 00	..G......6 .....
+00 EA 00 03 00 FF FF FF FF FF 52 65 66 65 72 65	..........Refere
+6E 63 65 20 43 6F 64 65 20 2D 20 43 50 55 00 75	nce Code - CPU.u
+43 6F 64 65 20 56 65 72 73 69 6F 6E 00 54 58 54	Code Version.TXT
+20 41 43 4D 20 76 65 72 73 69 6F 6E 00 00      	 ACM version..  
+Type	0xDD (221)
+Length	0x1A (26)
+Handle	0x0047 (71)
+
+
+[Unknown]
+DD 1A 48 00 03 01 00 0B 01 36 20 00 02 00 0F 00	..H......6 .....
+00 02 00 03 04 0F 00 16 90 06 52 65 66 65 72 65	..........Refere
+6E 63 65 20 43 6F 64 65 20 2D 20 4D 45 00 4D 45	nce Code - ME.ME
+42 78 20 76 65 72 73 69 6F 6E 00 4D 45 20 46 69	Bx version.ME Fi
+72 6D 77 61 72 65 20 56 65 72 73 69 6F 6E 00 43	rmware Version.C
+6F 6E 73 75 6D 65 72 20 53 4B 55 00 00         	onsumer SKU..   
+Type	0xDD (221)
+Length	0x1A (26)
+Handle	0x0048 (72)
+
+
+[Unknown]
+DD 2F 49 00 06 01 00 0B 01 36 20 00 02 03 FF FF	./I......6 .....
+FF FF FF 04 00 FF FF FF 11 00 05 00 FF FF FF 11	................
+00 06 00 FF FF FF FF FF 07 00 04 00 00 00 00 52	...............R
+65 66 65 72 65 6E 63 65 20 43 6F 64 65 20 2D 20	eference Code - 
+50 43 48 00 50 43 48 2D 43 52 49 44 20 53 74 61	PCH.PCH-CRID Sta
+74 75 73 00 44 69 73 61 62 6C 65 64 00 50 43 48	tus.Disabled.PCH
+2D 43 52 49 44 20 4F 72 69 67 69 6E 61 6C 20 56	-CRID Original V
+61 6C 75 65 00 50 43 48 2D 43 52 49 44 20 4E 65	alue.PCH-CRID Ne
+77 20 56 61 6C 75 65 00 4F 50 52 4F 4D 20 2D 20	w Value.OPROM - 
+52 53 54 20 2D 20 52 41 49 44 00 50 43 48 20 48	RST - RAID.PCH H
+73 69 6F 20 56 65 72 73 69 6F 6E 00 00         	sio Version..   
+Type	0xDD (221)
+Length	0x2F (47)
+Handle	0x0049 (73)
+
+
+[Unknown]
+DD 52 4A 00 0B 01 00 0B 01 36 20 00 02 00 00 00	.RJ......6 .....
+00 39 00 03 00 0B 01 36 20 00 04 05 FF FF FF FF	.9.....6 .......
+FF 06 00 00 00 00 03 00 07 00 00 00 00 03 00 08	................
+00 FF FF FF FF FF 09 00 FF FF FF FF FF 0A 00 FF	................
+FF FF FF FF 0B 00 FF FF FF FF FF 0C 00 FF FF 0F	................
+FF 00 52 65 66 65 72 65 6E 63 65 20 43 6F 64 65	..Reference Code
+20 2D 20 53 41 20 2D 20 53 79 73 74 65 6D 20 41	 - SA - System A
+67 65 6E 74 00 52 65 66 65 72 65 6E 63 65 20 43	gent.Reference C
+6F 64 65 20 2D 20 4D 52 43 00 53 41 20 2D 20 50	ode - MRC.SA - P
+43 49 65 20 56 65 72 73 69 6F 6E 00 53 41 2D 43	CIe Version.SA-C
+52 49 44 20 53 74 61 74 75 73 00 44 69 73 61 62	RID Status.Disab
+6C 65 64 00 53 41 2D 43 52 49 44 20 4F 72 69 67	led.SA-CRID Orig
+69 6E 61 6C 20 56 61 6C 75 65 00 53 41 2D 43 52	inal Value.SA-CR
+49 44 20 4E 65 77 20 56 61 6C 75 65 00 4F 50 52	ID New Value.OPR
+4F 4D 20 2D 20 56 42 49 4F 53 00 49 4F 20 4D 61	OM - VBIOS.IO Ma
+6E 61 67 65 61 62 69 6C 69 74 79 20 45 6E 67 69	nageability Engi
+6E 65 20 46 57 20 56 65 72 73 69 6F 6E 00 50 48	ne FW Version.PH
+59 20 42 75 69 6C 64 20 56 65 72 73 69 6F 6E 00	Y Build Version.
+54 68 75 6E 64 65 72 62 6F 6C 74 28 54 4D 29 20	Thunderbolt(TM) 
+46 57 20 56 65 72 73 69 6F 6E 00 53 79 73 74 65	FW Version.Syste
+6D 20 41 67 65 6E 74 20 4D 61 6E 61 67 65 61 62	m Agent Manageab
+69 6C 69 74 79 20 45 6E 67 69 6E 65 20 46 57 20	ility Engine FW 
+56 65 72 73 69 6F 6E 00 00                     	Version..       
+Type	0xDD (221)
+Length	0x52 (82)
+Handle	0x004A (74)
+
+
+[Unknown]
+DD 0C 4B 00 01 01 00 04 00 00 00 00 46 53 50 20	..K.........FSP 
+42 69 6E 61 72 79 20 56 65 72 73 69 6F 6E 00 00	Binary Version..
+Type	0xDD (221)
+Length	0x0C (12)
+Handle	0x004B (75)
+
+
+[Cache Information] (Type 7)
+07 1B 4C 00 01 80 01 80 01 80 01 20 00 20 00 00	..L........ . ..
+04 01 07 80 01 00 00 80 01 00 00 4C 31 20 43 61	...........L1 Ca
+63 68 65 00 00                                 	che..           
+Type	0x07 (7)
+Length	0x1B (27)
+Handle	0x004C (76)
+Socket Designation	String1 - "L1 Cache"
+Cache Configuration	0x0180
+  Bit9:8 = 1	Operational Mode - Write Back
+  Bit7 = 3	Enabled/Disabled (at boot time) - Enabled
+  Bit6:5 = 0	Location, relative to the CPU module - Internal
+  Bit3 = 48	Cache Socketed - Not Socketed
+  Bit2:0 = 0	Cache Level - 0x00
+Maximum Cache Size	0x0180 - 384KB
+Installed Cache Size	0x0180 - 384KB
+Supported SRAM Type	0x0020
+  Bit0	Other - 0 (No)
+  Bit1	Unknown - 0 (No)
+  Bit2	Non-Burst - 0 (No)
+  Bit3	Burst - 0 (No)
+  Bit4	Pipeline Burst - 0 (No)
+  Bit5	Synchronous - 1 (Yes)
+  Bit6	Asynchronous - 0 (No)
+Current SRAM Type	0x0020
+  Bit0	Other - 0 (No)
+  Bit1	Unknown - 0 (No)
+  Bit2	Non-Burst - 0 (No)
+  Bit3	Burst - 0 (No)
+  Bit4	Pipeline Burst - 0 (No)
+  Bit5	Synchronous - 1 (Yes)
+  Bit6	Asynchronous - 0 (No)
+Cache Speed	0x00 - Unknown
+Error Correction Type	0x04 - Parity 
+System Cache Type	0x01 - Other 
+Associativity	0x07 - 8-way Set-Associative 
+
+
+[Cache Information] (Type 7)
+07 1B 4D 00 01 81 01 00 06 00 06 20 00 20 00 00	..M........ . ..
+05 05 05 00 06 00 00 00 06 00 00 4C 32 20 43 61	...........L2 Ca
+63 68 65 00 00                                 	che..           
+Type	0x07 (7)
+Length	0x1B (27)
+Handle	0x004D (77)
+Socket Designation	String1 - "L2 Cache"
+Cache Configuration	0x0181
+  Bit9:8 = 1	Operational Mode - Write Back
+  Bit7 = 3	Enabled/Disabled (at boot time) - Enabled
+  Bit6:5 = 0	Location, relative to the CPU module - Internal
+  Bit3 = 48	Cache Socketed - Not Socketed
+  Bit2:0 = 1	Cache Level - 0x01
+Maximum Cache Size	0x0600 - 1536KB, 2MB
+Installed Cache Size	0x0600 - 1536KB, 2MB
+Supported SRAM Type	0x0020
+  Bit0	Other - 0 (No)
+  Bit1	Unknown - 0 (No)
+  Bit2	Non-Burst - 0 (No)
+  Bit3	Burst - 0 (No)
+  Bit4	Pipeline Burst - 0 (No)
+  Bit5	Synchronous - 1 (Yes)
+  Bit6	Asynchronous - 0 (No)
+Current SRAM Type	0x0020
+  Bit0	Other - 0 (No)
+  Bit1	Unknown - 0 (No)
+  Bit2	Non-Burst - 0 (No)
+  Bit3	Burst - 0 (No)
+  Bit4	Pipeline Burst - 0 (No)
+  Bit5	Synchronous - 1 (Yes)
+  Bit6	Asynchronous - 0 (No)
+Cache Speed	0x00 - Unknown
+Error Correction Type	0x05 - Single-bit ECC 
+System Cache Type	0x05 - Unified 
+Associativity	0x05 - 4-way Set-Associative 
+
+
+[Cache Information] (Type 7)
+07 1B 4E 00 01 82 01 00 30 00 30 20 00 20 00 00	..N.....0.0 . ..
+06 05 08 00 30 00 00 00 30 00 00 4C 33 20 43 61	....0...0..L3 Ca
+63 68 65 00 00                                 	che..           
+Type	0x07 (7)
+Length	0x1B (27)
+Handle	0x004E (78)
+Socket Designation	String1 - "L3 Cache"
+Cache Configuration	0x0182
+  Bit9:8 = 1	Operational Mode - Write Back
+  Bit7 = 3	Enabled/Disabled (at boot time) - Enabled
+  Bit6:5 = 0	Location, relative to the CPU module - Internal
+  Bit3 = 48	Cache Socketed - Not Socketed
+  Bit2:0 = 2	Cache Level - 0x02
+Maximum Cache Size	0x3000 - 12288KB, 12MB
+Installed Cache Size	0x3000 - 12288KB, 12MB
+Supported SRAM Type	0x0020
+  Bit0	Other - 0 (No)
+  Bit1	Unknown - 0 (No)
+  Bit2	Non-Burst - 0 (No)
+  Bit3	Burst - 0 (No)
+  Bit4	Pipeline Burst - 0 (No)
+  Bit5	Synchronous - 1 (Yes)
+  Bit6	Asynchronous - 0 (No)
+Current SRAM Type	0x0020
+  Bit0	Other - 0 (No)
+  Bit1	Unknown - 0 (No)
+  Bit2	Non-Burst - 0 (No)
+  Bit3	Burst - 0 (No)
+  Bit4	Pipeline Burst - 0 (No)
+  Bit5	Synchronous - 1 (Yes)
+  Bit6	Asynchronous - 0 (No)
+Cache Speed	0x00 - Unknown
+Error Correction Type	0x06 - Multi-bit ECC 
+System Cache Type	0x05 - Unified 
+Associativity	0x08 - 16-way Set-Associative 
+
+
+[Processor Information] (Type 4)
+04 30 4F 00 01 03 CD 02 53 06 0A 00 FF FB EB BF	.0O.....S.......
+03 88 64 00 CC 10 54 0B 41 01 4C 00 4D 00 4E 00	..d...T.A.L.M.N.
+04 05 06 06 06 0C FC 00 CD 00 06 00 06 00 0C 00	................
+55 33 45 31 00 49 6E 74 65 6C 28 52 29 20 43 6F	U3E1.Intel(R) Co
+72 70 6F 72 61 74 69 6F 6E 00 49 6E 74 65 6C 28	rporation.Intel(
+52 29 20 43 6F 72 65 28 54 4D 29 20 69 35 2D 31	R) Core(TM) i5-1
+30 34 30 30 46 20 43 50 55 20 40 20 32 2E 39 30	0400F CPU @ 2.90
+47 48 7A 00 54 6F 20 42 65 20 46 69 6C 6C 65 64	GHz.To Be Filled
+20 42 79 20 4F 2E 45 2E 4D 2E 00 54 6F 20 42 65	 By O.E.M..To Be
+20 46 69 6C 6C 65 64 20 42 79 20 4F 2E 45 2E 4D	 Filled By O.E.M
+2E 00 54 6F 20 42 65 20 46 69 6C 6C 65 64 20 42	..To Be Filled B
+79 20 4F 2E 45 2E 4D 2E 00 00                  	y O.E.M...      
+Type	0x04 (4)
+Length	0x30 (48)
+Handle	0x004F (79)
+Socket Designation	String1 - "U3E1"
+Processor Type	0x03 - Central Processor 
+Processor Family	0xCD - Intel Core i5 processor 
+Processor Manufacturer	String2 - "Intel(R) Corporation"
+Processor ID	0xBFEBFBFF000A0653
+Processor Version	String3 - "Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz"
+Processor Voltage	0x880.800000011920929V
+External Clock	0x0064 (100)MHz
+Max Speed	0x10CC (4300)MHz
+Current Speed	0x0B54 (2900)MHz
+Processor Status	0x41
+  Bit6 = 1	CPU Socket Populated
+Processor Upgrade	0x01 - Other 
+L1 Cache Handle	0x004C (76)
+L2 Cache Handle	0x004D (77)
+L3 Cache Handle	0x004E (78)
+Serial Number	String4 - "To Be Filled By O.E.M."
+Asset Tag	String5 - "To Be Filled By O.E.M."
+Part Number	String6 - "To Be Filled By O.E.M."
+Core Count	0x06 (6)
+Core Enabled	0x06 (6)
+Thread Count	0x0C (12)
+Processor Characteristics	0x00FC
+  Bit1	Unknown - 0 (No)
+  Bit2	64-bit Capable - 1 (Yes)
+  Bit3	Multi-Core - 1 (Yes)
+  Bit4	Hardware Thread - 1 (Yes)
+  Bit5	Execute Protection - 1 (Yes)
+  Bit6	Enhanced Virtualization - 1 (Yes)
+  Bit7	Power/Performance Control - 1 (Yes)
+Processor Family 2	0x00CD - Intel Core i5 processor 
+
+
+[Unknown]
+83 40 50 00 31 00 00 00 0F 00 00 00 00 00 02 00	.@P.1...........
+F8 00 87 43 00 00 00 00 01 00 00 00 00 00 0F 00	...C............
+90 06 16 00 00 00 00 00 FE 00 FF FF 00 00 00 00	................
+00 00 00 00 22 00 00 00 76 50 72 6F 00 00 00 00	...."...vPro....
+00 00                                          	..              
+Type	0x83 (131)
+Length	0x40 (64)
+Handle	0x0050 (80)
+
+
+[Onboard Devices Extended Information] (Type 41)
+29 0B 51 00 01 81 01 00 00 00 00 4F 6E 62 6F 61	).Q........Onboa
+72 64 20 2D 20 4F 74 68 65 72 00 00            	rd - Other..    
+Type	0x29 (41)
+Length	0x0B (11)
+Handle	0x0051 (81)
+Reference Designation	String1 - "Onboard - Other"
+Device Type	 - Other  - Enabled
+Device Type Instance	0x01
+Segment Group Number	0x0000
+Bus Number	0x00
+Device/Function Number	0x00
+
+
+[Onboard Devices Extended Information] (Type 41)
+29 0B 52 00 01 81 02 00 00 00 40 4F 6E 62 6F 61	).R.......@Onboa
+72 64 20 2D 20 4F 74 68 65 72 00 00            	rd - Other..    
+Type	0x29 (41)
+Length	0x0B (11)
+Handle	0x0052 (82)
+Reference Designation	String1 - "Onboard - Other"
+Device Type	 - Other  - Enabled
+Device Type Instance	0x02
+Segment Group Number	0x0000
+Bus Number	0x00
+Device/Function Number	0x40
+
+
+[Onboard Devices Extended Information] (Type 41)
+29 0B 53 00 01 81 03 00 00 00 A0 4F 6E 62 6F 61	).S........Onboa
+72 64 20 2D 20 4F 74 68 65 72 00 00            	rd - Other..    
+Type	0x29 (41)
+Length	0x0B (11)
+Handle	0x0053 (83)
+Reference Designation	String1 - "Onboard - Other"
+Device Type	 - Other  - Enabled
+Device Type Instance	0x03
+Segment Group Number	0x0000
+Bus Number	0x00
+Device/Function Number	0xA0
+
+
+[Onboard Devices Extended Information] (Type 41)
+29 0B 54 00 01 81 04 00 00 00 A2 4F 6E 62 6F 61	).T........Onboa
+72 64 20 2D 20 4F 74 68 65 72 00 00            	rd - Other..    
+Type	0x29 (41)
+Length	0x0B (11)
+Handle	0x0054 (84)
+Reference Designation	String1 - "Onboard - Other"
+Device Type	 - Other  - Enabled
+Device Type Instance	0x04
+Segment Group Number	0x0000
+Bus Number	0x00
+Device/Function Number	0xA2
+
+
+[Onboard Devices Extended Information] (Type 41)
+29 0B 55 00 01 81 05 00 00 00 B0 4F 6E 62 6F 61	).U........Onboa
+72 64 20 2D 20 4F 74 68 65 72 00 00            	rd - Other..    
+Type	0x29 (41)
+Length	0x0B (11)
+Handle	0x0055 (85)
+Reference Designation	String1 - "Onboard - Other"
+Device Type	 - Other  - Enabled
+Device Type Instance	0x05
+Segment Group Number	0x0000
+Bus Number	0x00
+Device/Function Number	0xB0
+
+
+[Onboard Devices Extended Information] (Type 41)
+29 0B 56 00 01 89 01 00 00 00 B8 4F 6E 62 6F 61	).V........Onboa
+72 64 20 2D 20 53 41 54 41 00 00               	rd - SATA..     
+Type	0x29 (41)
+Length	0x0B (11)
+Handle	0x0056 (86)
+Reference Designation	String1 - "Onboard - SATA"
+Device Type	 - SATA Controller  - Enabled
+Device Type Instance	0x01
+Segment Group Number	0x0000
+Bus Number	0x00
+Device/Function Number	0xB8
+
+
+[Onboard Devices Extended Information] (Type 41)
+29 0B 57 00 01 81 06 00 00 00 F8 4F 6E 62 6F 61	).W........Onboa
+72 64 20 2D 20 4F 74 68 65 72 00 00            	rd - Other..    
+Type	0x29 (41)
+Length	0x0B (11)
+Handle	0x0057 (87)
+Reference Designation	String1 - "Onboard - Other"
+Device Type	 - Other  - Enabled
+Device Type Instance	0x06
+Segment Group Number	0x0000
+Bus Number	0x00
+Device/Function Number	0xF8
+
+
+[Onboard Devices Extended Information] (Type 41)
+29 0B 58 00 01 87 01 00 00 00 FB 4F 6E 62 6F 61	).X........Onboa
+72 64 20 2D 20 53 6F 75 6E 64 00 00            	rd - Sound..    
+Type	0x29 (41)
+Length	0x0B (11)
+Handle	0x0058 (88)
+Reference Designation	String1 - "Onboard - Sound"
+Device Type	 - Sound  - Enabled
+Device Type Instance	0x01
+Segment Group Number	0x0000
+Bus Number	0x00
+Device/Function Number	0xFB
+
+
+[Onboard Devices Extended Information] (Type 41)
+29 0B 59 00 01 81 07 00 00 00 FC 4F 6E 62 6F 61	).Y........Onboa
+72 64 20 2D 20 4F 74 68 65 72 00 00            	rd - Other..    
+Type	0x29 (41)
+Length	0x0B (11)
+Handle	0x0059 (89)
+Reference Designation	String1 - "Onboard - Other"
+Device Type	 - Other  - Enabled
+Device Type Instance	0x07
+Segment Group Number	0x0000
+Bus Number	0x00
+Device/Function Number	0xFC
+
+
+[Onboard Devices Extended Information] (Type 41)
+29 0B 5A 00 01 81 08 00 00 00 FD 4F 6E 62 6F 61	).Z........Onboa
+72 64 20 2D 20 4F 74 68 65 72 00 00            	rd - Other..    
+Type	0x29 (41)
+Length	0x0B (11)
+Handle	0x005A (90)
+Reference Designation	String1 - "Onboard - Other"
+Device Type	 - Other  - Enabled
+Device Type Instance	0x08
+Segment Group Number	0x0000
+Bus Number	0x00
+Device/Function Number	0xFD
+
+
+[Unknown]
+DD 52 5B 00 0B 01 00 FF FF FF FF FF 02 00 FF FF	.R[.............
+FF FF FF 03 04 FF FF FF FF FF 05 06 FF FF FF FF	................
+FF 07 08 FF FF FF FF FF 09 00 00 00 00 00 00 0A	................
+00 FF FF FF FF FF 0B 00 FF FF 00 00 00 0C 00 00	................
+09 00 11 11 0D 00 FF FF FF FF FF 0E 00 00 07 00	................
+00 00 4C 61 6E 20 50 68 79 20 56 65 72 73 69 6F	..Lan Phy Versio
+6E 00 53 65 6E 73 6F 72 20 46 69 72 6D 77 61 72	n.Sensor Firmwar
+65 20 56 65 72 73 69 6F 6E 00 44 65 62 75 67 20	e Version.Debug 
+4D 6F 64 65 20 53 74 61 74 75 73 00 44 69 73 61	Mode Status.Disa
+62 6C 65 64 00 50 65 72 66 6F 72 6D 61 6E 63 65	bled.Performance
+20 4D 6F 64 65 20 53 74 61 74 75 73 00 44 69 73	 Mode Status.Dis
+61 62 6C 65 64 00 44 65 62 75 67 20 55 73 65 20	abled.Debug Use 
+55 53 42 28 44 69 73 61 62 6C 65 64 3A 53 65 72	USB(Disabled:Ser
+69 61 6C 29 00 44 69 73 61 62 6C 65 64 00 49 43	ial).Disabled.IC
+43 20 4F 76 65 72 63 6C 6F 63 6B 69 6E 67 20 56	C Overclocking V
+65 72 73 69 6F 6E 00 55 4E 44 49 20 56 65 72 73	ersion.UNDI Vers
+69 6F 6E 00 45 43 20 46 57 20 56 65 72 73 69 6F	ion.EC FW Versio
+6E 00 47 4F 50 20 56 65 72 73 69 6F 6E 00 52 6F	n.GOP Version.Ro
+79 61 6C 20 50 61 72 6B 20 56 65 72 73 69 6F 6E	yal Park Version
+00 50 6C 61 74 66 6F 72 6D 20 56 65 72 73 69 6F	.Platform Versio
+6E 00 00                                       	n..             
+Type	0xDD (221)
+Length	0x52 (82)
+Handle	0x005B (91)
+
+
+[Unknown]
+8F 10 5C 00 00 01 02 03 04 05 06 07 08 09 0A 0B	..\.............
+4D 45 46 57 2D 31 35 2E 30 2E 32 32 2E 31 36 38	MEFW-15.0.22.168
+30 00 47 4F 50 31 2D 5B 39 2E 30 2E 31 31 31 31	0.GOP1-[9.0.1111
+5D 00 52 41 49 44 2D 31 38 2E 33 31 00 50 58 45	].RAID-18.31.PXE
+55 31 2D 76 32 2E 30 34 31 00 41 4D 49 2D 41 70	U1-v2.041.AMI-Ap
+74 69 6F 56 00 47 53 45 53 2D 35 2F 33 00 4D 73	tioV.GSES-5/3.Ms
+69 46 6C 61 73 68 2D 31 37 00 4E 2F 41 00 4E 2F	iFlash-17.N/A.N/
+41 00 4E 2F 41 00 4E 2F 41 00 4E 2F 41 00 00   	A.N/A.N/A.N/A.. 
+Type	0x8F (143)
+Length	0x10 (16)
+Handle	0x005C (92)
+
+
+[System Boot Information] (Type 32)
+20 0B 5D 00 00 00 00 00 00 00 00 00 00         	 .]..........   
+Type	0x20 (32)
+Length	0x0B (11)
+Handle	0x005D (93)
+Reserved	0x000000000000
+Boot Status	0x00
+  Status Description	0x00 - No errors detected 
+
+
+[BIOS Language Information] (Type 13)
+0D 16 5E 00 01 01 00 00 00 00 00 00 00 00 00 00	..^.............
+00 00 00 00 00 01 65 6E 55 53 00 00            	......enUS..    
+Type	0x0D (13)
+Length	0x16 (22)
+Handle	0x005E (94)
+Installable Languages	0x01 (1)
+Flags	0x01 (1) - abbreviated format
+Reserved	0x000000000000000000000000000000
+Current Language	String1 - "enUS"
+  Language1	String1 - "enUS"
+
+
+[Port Connector Information] (Type 8)
+08 09 5F 00 01 00 02 0F 0D 4E 6F 6E 65 00 4B 65	.._......None.Ke
+79 62 6F 61 72 64 00 00                        	yboard..        
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x005F (95)
+Internal Reference Designator	String1 - "None"
+Internal Connector Type	0x00 - None 
+External Reference Designator	String2 - "Keyboard"
+External Connector Type	0x0F - PS/2 
+Port Type	0x0D - Keyboard Port 
+
+
+[Port Connector Information] (Type 8)
+08 09 60 00 01 00 02 0F 0E 4E 6F 6E 65 00 4D 6F	..`......None.Mo
+75 73 65 00 00                                 	use..           
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0060 (96)
+Internal Reference Designator	String1 - "None"
+Internal Connector Type	0x00 - None 
+External Reference Designator	String2 - "Mouse"
+External Connector Type	0x0F - PS/2 
+Port Type	0x0E - Mouse Port 
+
+
+[Port Connector Information] (Type 8)
+08 09 61 00 01 FF 02 00 09 4E 6F 6E 65 00 43 4F	..a......None.CO
+4D 20 31 00 00                                 	M 1..           
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0061 (97)
+Internal Reference Designator	String1 - "None"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "COM 1"
+External Connector Type	0x00 - None 
+Port Type	0x09 - Serial Port 16550A Compatible 
+
+
+[Port Connector Information] (Type 8)
+08 09 62 00 01 FF 02 07 1C 4A 31 41 32 42 00 56	..b......J1A2B.V
+69 64 65 6F 00 00                              	ideo..          
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0062 (98)
+Internal Reference Designator	String1 - "J1A2B"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "Video"
+External Connector Type	0x07 - DB-15 pin female 
+Port Type	0x1C - Video Port 
+
+
+[Port Connector Information] (Type 8)
+08 09 63 00 01 FF 02 00 1C 4A 33 41 32 00 48 44	..c......J3A2.HD
+4D 49 00 00                                    	MI..            
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0063 (99)
+Internal Reference Designator	String1 - "J3A2"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "HDMI"
+External Connector Type	0x00 - None 
+Port Type	0x1C - Video Port 
+
+
+[Port Connector Information] (Type 8)
+08 09 64 00 01 00 02 12 10 4E 6F 6E 65 00 55 53	..d......None.US
+42 31 2E 31 20 2D 20 31 23 00 00               	B1.1 - 1#..     
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0064 (100)
+Internal Reference Designator	String1 - "None"
+Internal Connector Type	0x00 - None 
+External Reference Designator	String2 - "USB1.1 - 1#"
+External Connector Type	0x12 - Access Bus (USB) 
+Port Type	0x10 - USB 
+
+
+[Port Connector Information] (Type 8)
+08 09 65 00 01 00 02 12 10 4E 6F 6E 65 00 55 53	..e......None.US
+42 31 2E 31 20 2D 20 32 23 00 00               	B1.1 - 2#..     
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0065 (101)
+Internal Reference Designator	String1 - "None"
+Internal Connector Type	0x00 - None 
+External Reference Designator	String2 - "USB1.1 - 2#"
+External Connector Type	0x12 - Access Bus (USB) 
+Port Type	0x10 - USB 
+
+
+[Port Connector Information] (Type 8)
+08 09 66 00 01 00 02 12 10 4E 6F 6E 65 00 55 53	..f......None.US
+42 31 2E 31 20 2D 20 33 23 00 00               	B1.1 - 3#..     
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0066 (102)
+Internal Reference Designator	String1 - "None"
+Internal Connector Type	0x00 - None 
+External Reference Designator	String2 - "USB1.1 - 3#"
+External Connector Type	0x12 - Access Bus (USB) 
+Port Type	0x10 - USB 
+
+
+[Port Connector Information] (Type 8)
+08 09 67 00 01 00 02 12 10 4E 6F 6E 65 00 55 53	..g......None.US
+42 31 2E 31 20 2D 20 34 23 00 00               	B1.1 - 4#..     
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0067 (103)
+Internal Reference Designator	String1 - "None"
+Internal Connector Type	0x00 - None 
+External Reference Designator	String2 - "USB1.1 - 4#"
+External Connector Type	0x12 - Access Bus (USB) 
+Port Type	0x10 - USB 
+
+
+[Port Connector Information] (Type 8)
+08 09 68 00 01 00 02 12 10 4E 6F 6E 65 00 55 53	..h......None.US
+42 31 2E 31 20 2D 20 35 23 00 00               	B1.1 - 5#..     
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0068 (104)
+Internal Reference Designator	String1 - "None"
+Internal Connector Type	0x00 - None 
+External Reference Designator	String2 - "USB1.1 - 5#"
+External Connector Type	0x12 - Access Bus (USB) 
+Port Type	0x10 - USB 
+
+
+[Port Connector Information] (Type 8)
+08 09 69 00 01 00 02 12 10 4E 6F 6E 65 00 55 53	..i......None.US
+42 32 2E 30 20 2D 20 31 23 00 00               	B2.0 - 1#..     
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0069 (105)
+Internal Reference Designator	String1 - "None"
+Internal Connector Type	0x00 - None 
+External Reference Designator	String2 - "USB2.0 - 1#"
+External Connector Type	0x12 - Access Bus (USB) 
+Port Type	0x10 - USB 
+
+
+[Port Connector Information] (Type 8)
+08 09 6A 00 01 00 02 12 10 4E 6F 6E 65 00 55 53	..j......None.US
+42 32 2E 30 20 2D 20 32 23 00 00               	B2.0 - 2#..     
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x006A (106)
+Internal Reference Designator	String1 - "None"
+Internal Connector Type	0x00 - None 
+External Reference Designator	String2 - "USB2.0 - 2#"
+External Connector Type	0x12 - Access Bus (USB) 
+Port Type	0x10 - USB 
+
+
+[Port Connector Information] (Type 8)
+08 09 6B 00 01 00 02 0B 1F 4E 6F 6E 65 00 45 74	..k......None.Et
+68 65 72 6E 65 74 00 00                        	hernet..        
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x006B (107)
+Internal Reference Designator	String1 - "None"
+Internal Connector Type	0x00 - None 
+External Reference Designator	String2 - "Ethernet"
+External Connector Type	0x0B - RJ-45 
+Port Type	0x1F - Network Port 
+
+
+[Port Connector Information] (Type 8)
+08 09 6C 00 01 00 02 22 20 4A 38 4A 31 00 53 41	..l...." J8J1.SA
+54 41 20 50 6F 72 74 20 30 20 44 69 72 65 63 74	TA Port 0 Direct
+20 43 6F 6E 6E 65 63 74 00 00                  	 Connect..      
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x006C (108)
+Internal Reference Designator	String1 - "J8J1"
+Internal Connector Type	0x00 - None 
+External Reference Designator	String2 - "SATA Port 0 Direct Connect"
+External Connector Type	0x22
+Port Type	0x20 - SATA 
+
+
+[Port Connector Information] (Type 8)
+08 09 6D 00 01 00 02 22 20 4A 37 4A 31 00 65 53	..m...." J7J1.eS
+41 54 41 20 50 6F 72 74 20 34 00 00            	ATA Port 4..    
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x006D (109)
+Internal Reference Designator	String1 - "J7J1"
+Internal Connector Type	0x00 - None 
+External Reference Designator	String2 - "eSATA Port 4"
+External Connector Type	0x22
+Port Type	0x20 - SATA 
+
+
+[Port Connector Information] (Type 8)
+08 09 6E 00 01 00 02 22 20 4A 36 4A 31 00 65 53	..n...." J6J1.eS
+41 54 41 20 50 6F 72 74 20 33 00 00            	ATA Port 3..    
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x006E (110)
+Internal Reference Designator	String1 - "J6J1"
+Internal Connector Type	0x00 - None 
+External Reference Designator	String2 - "eSATA Port 3"
+External Connector Type	0x22
+Port Type	0x20 - SATA 
+
+
+[Port Connector Information] (Type 8)
+08 09 6F 00 01 22 02 00 20 4A 37 47 31 20 2D 20	..o..".. J7G1 - 
+53 41 54 41 20 50 6F 72 74 20 32 00 4E 6F 6E 65	SATA Port 2.None
+00 00                                          	..              
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x006F (111)
+Internal Reference Designator	String1 - "J7G1 - SATA Port 2"
+Internal Connector Type	0x22
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0x20 - SATA 
+
+
+[Port Connector Information] (Type 8)
+08 09 70 00 01 22 02 00 20 4A 37 47 32 20 2D 20	..p..".. J7G2 - 
+53 41 54 41 20 50 6F 72 74 20 31 00 4E 6F 6E 65	SATA Port 1.None
+00 00                                          	..              
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0070 (112)
+Internal Reference Designator	String1 - "J7G2 - SATA Port 1"
+Internal Connector Type	0x22
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0x20 - SATA 
+
+
+[Port Connector Information] (Type 8)
+08 09 71 00 01 00 02 FF FF 4A 31 46 32 00 41 43	..q......J1F2.AC
+20 49 4E 00 00                                 	 IN..           
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0071 (113)
+Internal Reference Designator	String1 - "J1F2"
+Internal Connector Type	0x00 - None 
+External Reference Designator	String2 - "AC IN"
+External Connector Type	0xFF - Other 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 72 00 01 FF 02 00 FF 4A 35 42 31 20 2D 20	..r......J5B1 - 
+50 43 48 20 4A 54 41 47 00 4E 6F 6E 65 00 00   	PCH JTAG.None.. 
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0072 (114)
+Internal Reference Designator	String1 - "J5B1 - PCH JTAG"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 73 00 01 FF 02 00 FF 4A 39 41 31 20 2D 20	..s......J9A1 - 
+54 50 4D 2F 50 4F 52 54 20 38 30 00 4E 6F 6E 65	TPM/PORT 80.None
+00 00                                          	..              
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0073 (115)
+Internal Reference Designator	String1 - "J9A1 - TPM/PORT 80"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 74 00 01 FF 02 00 FF 4A 39 45 34 20 2D 20	..t......J9E4 - 
+48 44 41 20 32 58 38 20 48 65 61 64 65 72 00 4E	HDA 2X8 Header.N
+6F 6E 65 00 00                                 	one..           
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0074 (116)
+Internal Reference Designator	String1 - "J9E4 - HDA 2X8 Header"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 75 00 01 FF 02 00 FF 4A 39 45 37 20 2D 20	..u......J9E7 - 
+48 44 41 20 38 50 69 6E 20 48 65 61 64 65 72 00	HDA 8Pin Header.
+4E 6F 6E 65 00 00                              	None..          
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0075 (117)
+Internal Reference Designator	String1 - "J9E7 - HDA 8Pin Header"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 76 00 01 FF 02 00 FF 4A 38 46 31 20 2D 20	..v......J8F1 - 
+48 44 41 20 48 44 4D 49 00 4E 6F 6E 65 00 00   	HDA HDMI.None.. 
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0076 (118)
+Internal Reference Designator	String1 - "J8F1 - HDA HDMI"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 77 00 01 FF 02 00 FF 4A 39 45 33 20 2D 20	..w......J9E3 - 
+53 63 61 6E 20 4D 61 74 72 69 78 20 4B 65 79 62	Scan Matrix Keyb
+6F 61 72 64 00 4E 6F 6E 65 00 00               	oard.None..     
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0077 (119)
+Internal Reference Designator	String1 - "J9E3 - Scan Matrix Keyboard"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 78 00 01 FF 02 00 FF 4A 38 45 31 20 2D 20	..x......J8E1 - 
+53 50 49 20 50 72 6F 67 72 61 6D 00 4E 6F 6E 65	SPI Program.None
+00 00                                          	..              
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0078 (120)
+Internal Reference Designator	String1 - "J8E1 - SPI Program"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 79 00 01 FF 02 00 FF 4A 39 45 35 20 2D 20	..y......J9E5 - 
+4C 50 43 20 48 6F 74 20 44 6F 63 6B 69 6E 67 00	LPC Hot Docking.
+4E 6F 6E 65 00 00                              	None..          
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0079 (121)
+Internal Reference Designator	String1 - "J9E5 - LPC Hot Docking"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 7A 00 01 FF 02 00 FF 4A 39 47 32 20 2D 20	..z......J9G2 - 
+4C 50 43 20 53 49 44 45 20 42 41 4E 44 00 4E 6F	LPC SIDE BAND.No
+6E 65 00 00                                    	ne..            
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x007A (122)
+Internal Reference Designator	String1 - "J9G2 - LPC SIDE BAND"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 7B 00 01 FF 02 00 FF 4A 38 46 32 20 2D 20	..{......J8F2 - 
+4C 50 43 20 53 6C 6F 74 00 4E 6F 6E 65 00 00   	LPC Slot.None.. 
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x007B (123)
+Internal Reference Designator	String1 - "J8F2 - LPC Slot"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 7C 00 01 FF 02 00 FF 4A 38 48 33 20 2D 20	..|......J8H3 - 
+50 43 48 20 58 44 50 00 4E 6F 6E 65 00 00      	PCH XDP.None..  
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x007C (124)
+Internal Reference Designator	String1 - "J8H3 - PCH XDP"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 7D 00 01 FF 02 00 FF 4A 36 48 31 20 2D 20	..}......J6H1 - 
+53 41 54 41 20 50 6F 77 65 72 00 4E 6F 6E 65 00	SATA Power.None.
+00                                             	.               
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x007D (125)
+Internal Reference Designator	String1 - "J6H1 - SATA Power"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 7E 00 01 FF 02 00 FF 4A 35 4A 31 20 2D 20	..~......J5J1 - 
+46 50 20 48 65 61 64 65 72 00 4E 6F 6E 65 00 00	FP Header.None..
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x007E (126)
+Internal Reference Designator	String1 - "J5J1 - FP Header"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 7F 00 01 FF 02 00 FF 4A 34 48 31 20 2D 20	.........J4H1 - 
+41 54 58 20 50 6F 77 65 72 00 4E 6F 6E 65 00 00	ATX Power.None..
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x007F (127)
+Internal Reference Designator	String1 - "J4H1 - ATX Power"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 80 00 01 FF 02 00 FF 4A 31 4A 33 20 2D 20	.........J1J3 - 
+41 56 4D 43 00 4E 6F 6E 65 00 00               	AVMC.None..     
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0080 (128)
+Internal Reference Designator	String1 - "J1J3 - AVMC"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 81 00 01 FF 02 00 FF 4A 31 48 31 20 2D 20	.........J1H1 - 
+42 41 54 54 20 42 00 4E 6F 6E 65 00 00         	BATT B.None..   
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0081 (129)
+Internal Reference Designator	String1 - "J1H1 - BATT B"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 82 00 01 FF 02 00 FF 4A 31 48 32 20 2D 20	.........J1H2 - 
+42 41 54 54 20 41 00 4E 6F 6E 65 00 00         	BATT A.None..   
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0082 (130)
+Internal Reference Designator	String1 - "J1H2 - BATT A"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 83 00 01 FF 02 00 FF 4A 32 47 31 20 2D 20	.........J2G1 - 
+43 50 55 20 46 61 6E 00 4E 6F 6E 65 00 00      	CPU Fan.None..  
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0083 (131)
+Internal Reference Designator	String1 - "J2G1 - CPU Fan"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 84 00 01 FF 02 00 FF 4A 31 44 33 20 2D 20	.........J1D3 - 
+58 44 50 00 4E 6F 6E 65 00 00                  	XDP.None..      
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0084 (132)
+Internal Reference Designator	String1 - "J1D3 - XDP"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 85 00 01 FF 02 00 FF 4A 34 56 31 20 2D 20	.........J4V1 - 
+4D 65 6D 6F 72 79 20 53 6C 6F 74 20 31 00 4E 6F	Memory Slot 1.No
+6E 65 00 00                                    	ne..            
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0085 (133)
+Internal Reference Designator	String1 - "J4V1 - Memory Slot 1"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 86 00 01 FF 02 00 FF 4A 34 56 32 20 2D 20	.........J4V2 - 
+4D 65 6D 6F 72 79 20 53 6C 6F 74 20 32 00 4E 6F	Memory Slot 2.No
+6E 65 00 00                                    	ne..            
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0086 (134)
+Internal Reference Designator	String1 - "J4V2 - Memory Slot 2"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Port Connector Information] (Type 8)
+08 09 87 00 01 FF 02 00 FF 4A 34 43 31 20 2D 20	.........J4C1 - 
+46 41 4E 20 50 57 52 00 4E 6F 6E 65 00 00      	FAN PWR.None..  
+Type	0x08 (8)
+Length	0x09 (9)
+Handle	0x0087 (135)
+Internal Reference Designator	String1 - "J4C1 - FAN PWR"
+Internal Connector Type	0xFF - Other 
+External Reference Designator	String2 - "None"
+External Connector Type	0x00 - None 
+Port Type	0xFF - Other 
+
+
+[Unknown]
+88 08 88 00 00 00 00 00 00 00                  	..........      
+Type	0x88 (136)
+Length	0x08 (8)
+Handle	0x0088 (136)
+
+
+[Group Associations] (Type 14)
+0E 08 89 00 01 DB 00 00 24 4D 45 49 00 00      	........$MEI..  
+Type	0x0E (14)
+Length	0x08 (8)
+Handle	0x0089 (137)
+Group Name	String1 - "$MEI"
+Item Type	0xDB (219)
+Item Handle	0x0000 (0)
+
+
+[Unknown]
+DB 6A 8A 00 01 04 01 55 02 00 90 06 01 85 39 20	.j.....U......9 
+00 00 00 00 40 00 00 00 00 00 00 00 00 00 00 02	....@...........
+FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF	................
+FF FF FF FF FF FF FF FF 03 00 00 00 80 00 00 00	................
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00	................
+00 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00	................
+00 00 00 00 00 00 00 00 00 00 4D 45 49 31 00 4D	..........MEI1.M
+45 49 32 00 4D 45 49 33 00 4D 45 49 34 00 00   	EI2.MEI3.MEI4.. 
+Type	0xDB (219)
+Length	0x6A (106)
+Handle	0x008A (138)
+
+
+[Unknown]
+88 06 8B 00 00 00 00 00                        	........        
+Type	0x88 (136)
+Length	0x06 (6)
+Handle	0x008B (139)
+
+
+[Group Associations] (Type 14)
+0E 17 8C 00 01 DD 47 00 DD 48 00 DD 49 00 DD 4A	......G..H..I..J
+00 DD 4B 00 DD 5B 00 46 69 72 6D 77 61 72 65 20	..K..[.Firmware 
+56 65 72 73 69 6F 6E 20 49 6E 66 6F 00 00      	Version Info..  
+Type	0x0E (14)
+Length	0x17 (23)
+Handle	0x008C (140)
+Group Name	String1 - "Firmware Version Info"
+Item Type	0xDD (221)
+Item Handle	0x0047 (71)
+Item Type	0xDD (221)
+Item Handle	0x0048 (72)
+Item Type	0xDD (221)
+Item Handle	0x0049 (73)
+Item Type	0xDD (221)
+Item Handle	0x004A (74)
+Item Type	0xDD (221)
+Item Handle	0x004B (75)
+Item Type	0xDD (221)
+Item Handle	0x005B (91)
+
+
+[End of Table] (Type 127)
+7F 04 8D 00 00 00                              	......          
+Type	0x7F (127)
+Length	0x04 (4)
+Handle	0x008D (141)
+
+
